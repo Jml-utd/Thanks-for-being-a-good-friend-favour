@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100 Reasons I’m Thankful for Favour 💛</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', Arial, sans-serif;
+      background: linear-gradient(135deg, #f9f9f9, #ffe6f0);
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #e91e63;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      font-size: 1.1em;
+      margin-bottom: 30px;
+    }
+
+    .reason {
+      background: #fff;
+      margin-bottom: 12px;
+      padding: 15px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+
+    .reason:hover {
+      transform: scale(1.02);
+    }
+
+    .number {
+      font-weight: bold;
+      color: #e91e63;
+      margin-right: 8px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>100 Reasons Why I’m Thankful for You, Favour 💛</h1>
+    <p class="subtitle">
+      Just appreciation, respect, and gratitude for having an amazing homegirl in my life.
+    </p>
+
+    <div id="reasons"></div>
+
+    <footer>
+      Made with appreciation 🤍
+    </footer>
+  </div>
+
+  <script>
+    const reasons = [
+      "You’ve been there for me when I needed someone.",
+      "You listen without judging.",
+      "You’re honest, even when it’s not easy.",
+      "You support my growth.",
+      "You motivate me to do better.",
+      "You bring positive energy around me.",
+      "You respect my boundaries.",
+      "You understand my mood swings.",
+      "You celebrate my small wins.",
+      "You remind me to stay focused.",
+
+      "You’re dependable.",
+      "You make tough days lighter.",
+      "You’re kind without trying too hard.",
+      "You keep things real.",
+      "You don’t compete with me.",
+      "You believe in me.",
+      "You encourage my dreams.",
+      "You help me think clearly.",
+      "You give good advice.",
+      "You respect my silence.",
+
+      "You’re patient with me.",
+      "You correct me with love.",
+      "You bring peace, not drama.",
+      "You know when to joke and when to be serious.",
+      "You value friendship.",
+      "You understand loyalty.",
+      "You show genuine care.",
+      "You respect my hustle.",
+      "You remind me who I am.",
+      "You inspire confidence.",
+
+      "You make conversations meaningful.",
+      "You don’t give up on people easily.",
+      "You make effort.",
+      "You appreciate honesty.",
+      "You’re thoughtful.",
+      "You’re emotionally mature.",
+      "You’re consistent.",
+      "You make friendship easy.",
+      "You show up when it matters.",
+      "You’re trustworthy.",
+
+      "You know how to encourage.",
+      "You understand balance.",
+      "You keep things positive.",
+      "You respect growth.",
+      "You’re understanding.",
+      "You don’t judge my past.",
+      "You believe people can change.",
+      "You give good energy.",
+      "You respect differences.",
+      "You’re calm under pressure.",
+
+      "You know when to speak.",
+      "You know when to listen.",
+      "You care genuinely.",
+      "You’re supportive.",
+      "You’re real.",
+      "You’re reliable.",
+      "You’re emotionally intelligent.",
+      "You push me forward.",
+      "You bring clarity.",
+      "You value peace.",
+
+      "You’re kind-hearted.",
+      "You’re thoughtful with words.",
+      "You show respect.",
+      "You make me feel appreciated.",
+      "You don’t take friendship for granted.",
+      "You understand life.",
+      "You make things lighter.",
+      "You bring wisdom.",
+      "You bring balance.",
+      "You’re a blessing.",
+
+      "You’re a true homegirl.",
+      "You’re rare.",
+      "You matter.",
+      "You make life better.",
+      "You deserve appreciation.",
+      "You deserve respect.",
+      "You deserve good things.",
+      "You deserve happiness.",
+      "You’re valued.",
+      "I’m grateful for you."
+    ];
+
+    const container = document.getElementById("reasons");
+
+    reasons.forEach((text, index) => {
+      const div = document.createElement("div");
+      div.className = "reason";
+      div.innerHTML = `<span class="number">${index + 1}.</span>${text}`;
+      container.appendChild(div);
+    });
+  </script>
+
+</body>
+</html>
